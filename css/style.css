@@ -1,0 +1,297 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Profile Image */
+.profile-image {
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+/* Form Styling */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+.portfolio-section, .blog-section, .gallery-section {
+    padding: 40px;
+    text-align: center;
+}
+
+.portfolio-item, .blog-post, .gallery-item {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.portfolio-item img, .blog-post img, .gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Video Styling */
+video {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+
+/* Read More Button */
+.read-more {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.read-more:hover {
+    background-color: #45a049;
+}
+
+
+/* Career, Testimonials, Achievements Section */
+.career-section, .testimonials-section, .achievements-section {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Common Content Item Styling */
+.career-item, .testimonial-item, .achievement-item {
+    background: #fff;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 80%;
+    text-align: left;
+}
+
+.career-item h3, .testimonial-item h3, .achievement-item h3 {
+    color: #4CAF50;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Video Styling */
+video {
+    width: 80%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Images Styling */
+.testimonial-item img, .achievement-item img {
+    width: 100%;
+    border-radius: 5px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Section Styling */
+.education-section, .hobbies-section, .journal-section {
+    padding: 40px;
+    text-align: center;
+}
+
+.education-item, .hobby-item, .journal-entry {
+    background: #fff;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 80%;
+    text-align: left;
+}
+
+.education-item img, .hobby-item img, .journal-entry img {
+    width: 100%;
+    border-radius: 5px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.education-item h3, .hobby-item h3, .journal-entry h3 {
+    color: #4CAF50;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.travel-section, .gallery-section, .blog-section {
+    padding: 40px;
+    text-align: center;
+}
+
+.travel-item, .gallery-item, .blog-post {
+    background: #fff;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 80%;
+    text-align: left;
+}
+
+.travel-item img, .gallery-item img, .blog-post img {
+    width: 100%;
+    border-radius: 5px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.travel-item h3, .blog-post h3 {
+    color: #4CAF50;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.read-more {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+/* Footer Styling */
+.footer-container {
+    background-color: #333;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-container h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+.sitemap {
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+.sitemap ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sitemap ul li {
+    margin: 5px 15px;
+}
+
+.sitemap ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.sitemap ul li a:hover {
+    color: #4CAF50;
+}
+
+.footer-container p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+
+/* Resume Section */
+.resume-section {
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume-item {
+    margin: 20px 0;
+}
+
+.skills-list {
+    list-style: disc;
+    padding-left: 30px;
+}
+
+/* Privacy Policy Section */
+.privacy-section {
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
